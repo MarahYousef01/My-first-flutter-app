@@ -75,10 +75,12 @@ void increase ()
         StyledText("JAPANESE")
       ],),
      Row(
-      children: [
+      children: [ 
+        SizedBox(width: 30,),
     ElevatedButton(
-      style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.red[300],
+     
+         style: ElevatedButton.styleFrom(
+        backgroundColor: Colors.red[400],
       ),
       onPressed:increase,
        child: StyledText("press me to add more flags ^^ !")),
