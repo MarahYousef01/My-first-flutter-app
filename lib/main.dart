@@ -101,7 +101,7 @@ class Homee extends StatelessWidget {
               ),
             ), 
              Positioned(
-              top: 350,
+              top: 300,
               left : 90,
               child: Transform.rotate(
                 angle: -0.3, 
